@@ -1,0 +1,25 @@
+---
+layout: post
+rel_link:  "5_3_33"
+title:  "CMSSW_5_3_33"
+date:   2016-07-24 18:27:23
+categories: cmssw
+relmajor: 5
+relminor: 3
+relsubminor: 33
+---
+
+# CMSSW_5_3_33
+#### Changes since CMSSW_5_3_32_patch3:
+
+[compare to previous](https://github.com/cms-sw/cmssw/compare/CMSSW_5_3_32_patch3...CMSSW_5_3_33)
+
+
+
+#### CMSDIST Changes between Tags REL/CMSSW_5_3_32_patch3/slc6_amd64_gcc472 and REL/CMSSW_5_3_33/slc6_amd64_gcc472:
+
+[compare to previous](https://github.com/cms-sw/cmsdist/compare/REL/CMSSW_5_3_32_patch3/slc6_amd64_gcc472...REL/CMSSW_5_3_33/slc6_amd64_gcc472)
+
+
+
+1. [2340](http://github.com/cms-sw/cmsdist/pull/2340){:target="_blank"}  from **@iahmad-khan**: upgrades frontier client to 2.8.19 created: 2016-06-15 07:40:13 merged: 2016-06-27 12:21:43
