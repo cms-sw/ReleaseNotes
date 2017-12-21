@@ -12,7 +12,7 @@ relsubminor: 7
 # CMSSW_7_5_7
 #### Changes since CMSSW_7_5_6_patch1:
 
-:arrow_right: Merge due to automatic forward port
+<span class="glyphicon glyphicon-arrow-right"></span> Merge due to automatic forward port
 [compare to previous](https://github.com/cms-sw/cmssw/compare/CMSSW_7_5_6_patch1...CMSSW_7_5_7)
 
 

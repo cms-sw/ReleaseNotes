@@ -12,7 +12,7 @@ relsubminor: 0
 # CMSSW_7_6_0
 #### Changes since CMSSW_7_6_0_pre7:
 
-:arrow_right: Merge due to automatic forward port
+<span class="glyphicon glyphicon-arrow-right"></span> Merge due to automatic forward port
 [compare to previous](https://github.com/cms-sw/cmssw/compare/CMSSW_7_6_0_pre7...CMSSW_7_6_0)
 
 
@@ -182,179 +182,212 @@ relsubminor: 0
 82. [11811](http://github.com/cms-sw/cmssw/pull/11811){:target="_blank"}  from **@fabozzi**: added FEVTDEBUGHLT as output of step2 data relvals `pdmv`  created: 2015-10-15 09:20:45 merged: 2015-10-21 10:02:16
 
 83. [11810](http://github.com/cms-sw/cmssw/pull/11810){:target="_blank"}  from **@Dr15Jones**: Removed old LazyGetter calls from HLTDummyCollections `hlt`  created: 2015-10-15 08:44:10 merged: 2015-10-15 12:51:15
-- :arrow_right: #11807 from **@alja**: 75x Fireworks: fix MuonDigi accessor type `comparison`  `visualization` 
 
-84. [11804](http://github.com/cms-sw/cmssw/pull/11804){:target="_blank"}  from **@mbandrews**: Fix TestPulse RMS binning and output `dqm`  created: 2015-10-14 22:25:36 merged: 2015-10-16 05:24:51
+84. <span class="glyphicon glyphicon-arrow-right"></span>[11807](http://github.com/cms-sw/cmssw/pull/11807){:target="_blank"}  from **@alja**: 75x Fireworks: fix MuonDigi accessor type `comparison`  `visualization`  created: 2015-10-14 22:46:54 merged: 2015-10-15 07:36:12
 
-85. [11801](http://github.com/cms-sw/cmssw/pull/11801){:target="_blank"}  from **@bsunanda**: bsunanda:Run2-hcx42 Bug fix for HcalTopology `geometry`  created: 2015-10-14 20:03:15 merged: 2015-10-15 08:00:49
+85. [11804](http://github.com/cms-sw/cmssw/pull/11804){:target="_blank"}  from **@mbandrews**: Fix TestPulse RMS binning and output `dqm`  created: 2015-10-14 22:25:36 merged: 2015-10-16 05:24:51
 
-86. [11800](http://github.com/cms-sw/cmssw/pull/11800){:target="_blank"}  from **@diguida**: New Global Tags with cleanup and fixes for all scenarios. `alca`  created: 2015-10-14 19:30:23 merged: 2015-10-15 12:41:30
+86. [11801](http://github.com/cms-sw/cmssw/pull/11801){:target="_blank"}  from **@bsunanda**: bsunanda:Run2-hcx42 Bug fix for HcalTopology `geometry`  created: 2015-10-14 20:03:15 merged: 2015-10-15 08:00:49
 
-87. [11798](http://github.com/cms-sw/cmssw/pull/11798){:target="_blank"}  from **@vandreev11**: Fix a typo in MaterialNames, new material in HGCEE `geometry`  created: 2015-10-14 17:19:14 merged: 2015-10-19 10:02:08
+87. [11800](http://github.com/cms-sw/cmssw/pull/11800){:target="_blank"}  from **@diguida**: New Global Tags with cleanup and fixes for all scenarios. `alca`  created: 2015-10-14 19:30:23 merged: 2015-10-15 12:41:30
 
-88. [11790](http://github.com/cms-sw/cmssw/pull/11790){:target="_blank"}  from **@lveldere**: FastSim : muon validation : use fastsim era to define fastsim customs `dqm`  `fastsim`  `simulation`  created: 2015-10-14 14:11:33 merged: 2015-10-29 07:21:01
+88. [11798](http://github.com/cms-sw/cmssw/pull/11798){:target="_blank"}  from **@vandreev11**: Fix a typo in MaterialNames, new material in HGCEE `geometry`  created: 2015-10-14 17:19:14 merged: 2015-10-19 10:02:08
 
-89. [11789](http://github.com/cms-sw/cmssw/pull/11789){:target="_blank"}  from **@dertexaner**: Switch default HBHENoiseFilter settings to Run2-25ns configuration V2 - 76X `reconstruction`  `simulation`  created: 2015-10-14 14:10:52 merged: 2015-10-23 08:21:58
+89. [11790](http://github.com/cms-sw/cmssw/pull/11790){:target="_blank"}  from **@lveldere**: FastSim : muon validation : use fastsim era to define fastsim customs `dqm`  `fastsim`  `simulation`  created: 2015-10-14 14:11:33 merged: 2015-10-29 07:21:01
 
-90. [11788](http://github.com/cms-sw/cmssw/pull/11788){:target="_blank"}  from **@Dr15Jones**: Removed API for RefGetter and LazyGetter from EcalRegionCabling `reconstruction`  created: 2015-10-14 13:26:42 merged: 2015-10-19 10:02:14
+90. [11789](http://github.com/cms-sw/cmssw/pull/11789){:target="_blank"}  from **@dertexaner**: Switch default HBHENoiseFilter settings to Run2-25ns configuration V2 - 76X `reconstruction`  `simulation`  created: 2015-10-14 14:10:52 merged: 2015-10-23 08:21:58
 
-91. [11785](http://github.com/cms-sw/cmssw/pull/11785){:target="_blank"}  from **@smuzaffar**: remove duplicate run2 2015C workflows which were auto-forward ported from 75X `comparison`  `pdmv`  created: 2015-10-14 11:25:11 merged: 2015-10-14 13:41:50
+91. [11788](http://github.com/cms-sw/cmssw/pull/11788){:target="_blank"}  from **@Dr15Jones**: Removed API for RefGetter and LazyGetter from EcalRegionCabling `reconstruction`  created: 2015-10-14 13:26:42 merged: 2015-10-19 10:02:14
 
-92. [11784](http://github.com/cms-sw/cmssw/pull/11784){:target="_blank"}  from **@lgray**: Add possibility for partial ECAL digitization (towards working HGCAL) `simulation`  created: 2015-10-14 10:29:42 merged: 2015-10-19 10:06:46
+92. [11785](http://github.com/cms-sw/cmssw/pull/11785){:target="_blank"}  from **@smuzaffar**: remove duplicate run2 2015C workflows which were auto-forward ported from 75X `comparison`  `pdmv`  created: 2015-10-14 11:25:11 merged: 2015-10-14 13:41:50
 
-93. [11783](http://github.com/cms-sw/cmssw/pull/11783){:target="_blank"}  from **@lveldere**: Fastsim: HF: use shower library also for run1 `fastsim`  `simulation`  created: 2015-10-14 08:06:38 merged: 2015-10-22 13:01:54
+93. [11784](http://github.com/cms-sw/cmssw/pull/11784){:target="_blank"}  from **@lgray**: Add possibility for partial ECAL digitization (towards working HGCAL) `simulation`  created: 2015-10-14 10:29:42 merged: 2015-10-19 10:06:46
 
-94. [11779](http://github.com/cms-sw/cmssw/pull/11779){:target="_blank"}  from **@fwyzard**: make the behaviour of cmsRun and edmConfigDump more consistent `core`  created: 2015-10-13 23:50:04 merged: 2015-10-16 13:06:57
+94. [11783](http://github.com/cms-sw/cmssw/pull/11783){:target="_blank"}  from **@lveldere**: Fastsim: HF: use shower library also for run1 `fastsim`  `simulation`  created: 2015-10-14 08:06:38 merged: 2015-10-22 13:01:54
 
-95. [11772](http://github.com/cms-sw/cmssw/pull/11772){:target="_blank"}  from **@wmtan**: get rid of const_cast `core`  created: 2015-10-13 17:15:12 merged: 2015-10-14 08:51:26
+95. [11779](http://github.com/cms-sw/cmssw/pull/11779){:target="_blank"}  from **@fwyzard**: make the behaviour of cmsRun and edmConfigDump more consistent `core`  created: 2015-10-13 23:50:04 merged: 2015-10-16 13:06:57
 
-96. [11769](http://github.com/cms-sw/cmssw/pull/11769){:target="_blank"}  from **@igv4321**: Hcal simple reconstructor with method3 `reconstruction`  created: 2015-10-13 16:44:55 merged: 2015-10-23 08:26:49
+96. [11772](http://github.com/cms-sw/cmssw/pull/11772){:target="_blank"}  from **@wmtan**: get rid of const_cast `core`  created: 2015-10-13 17:15:12 merged: 2015-10-14 08:51:26
 
-97. [11768](http://github.com/cms-sw/cmssw/pull/11768){:target="_blank"}  from **@bsunanda**: bsunanda:Run2-gem10 Changes due to absent short chambers in GE21 `geometry`  created: 2015-10-13 16:36:11 merged: 2015-10-19 10:02:20
+97. [11769](http://github.com/cms-sw/cmssw/pull/11769){:target="_blank"}  from **@igv4321**: Hcal simple reconstructor with method3 `reconstruction`  created: 2015-10-13 16:44:55 merged: 2015-10-23 08:26:49
 
-98. [11766](http://github.com/cms-sw/cmssw/pull/11766){:target="_blank"}  from **@cms-tau-pog**: 3prong1pi0 new dms `reconstruction`  created: 2015-10-13 16:08:46 merged: 2015-10-23 08:27:00
+98. [11768](http://github.com/cms-sw/cmssw/pull/11768){:target="_blank"}  from **@bsunanda**: bsunanda:Run2-gem10 Changes due to absent short chambers in GE21 `geometry`  created: 2015-10-13 16:36:11 merged: 2015-10-19 10:02:20
 
-99. [11761](http://github.com/cms-sw/cmssw/pull/11761){:target="_blank"}  from **@slava77**: pick ecal fraction of 0 for a candidate with trackMomentum 0 (same as #11302 and  #11760) `comparison`  `reconstruction`  created: 2015-10-13 14:20:24 merged: 2015-10-14 08:47:35
-- :arrow_right: #11760 from **@slava77**: pick ecal fraction of 0 for a candidate with trackMomentum 0 (same as #11302) `reconstruction` 
+99. [11766](http://github.com/cms-sw/cmssw/pull/11766){:target="_blank"}  from **@cms-tau-pog**: 3prong1pi0 new dms `reconstruction`  created: 2015-10-13 16:08:46 merged: 2015-10-23 08:27:00
 
-100. [11759](http://github.com/cms-sw/cmssw/pull/11759){:target="_blank"}  from **@Dr15Jones**: Remove use of non-const static in pat::UserData<> `analysis`  created: 2015-10-13 13:27:47 merged: 2015-10-15 12:48:59
+100. [11761](http://github.com/cms-sw/cmssw/pull/11761){:target="_blank"}  from **@slava77**: pick ecal fraction of 0 for a candidate with trackMomentum 0 (same as #11302 and  #11760) `comparison`  `reconstruction`  created: 2015-10-13 14:20:24 merged: 2015-10-14 08:47:35
 
-101. [11758](http://github.com/cms-sw/cmssw/pull/11758){:target="_blank"}  from **@Dr15Jones**: Made static const in LimiDetails `reconstruction`  created: 2015-10-13 12:53:05 merged: 2015-10-16 05:26:20
+101. <span class="glyphicon glyphicon-arrow-right"></span>[11760](http://github.com/cms-sw/cmssw/pull/11760){:target="_blank"}  from **@slava77**: pick ecal fraction of 0 for a candidate with trackMomentum 0 (same as #11302) `reconstruction`  created: 2015-10-13 14:12:59 merged: 2015-10-15 07:36:30
 
-102. [11757](http://github.com/cms-sw/cmssw/pull/11757){:target="_blank"}  from **@Dr15Jones**: Changed static to const in ClusterFP420 `reconstruction`  created: 2015-10-13 12:24:07 merged: 2015-10-15 05:17:39
+102. [11759](http://github.com/cms-sw/cmssw/pull/11759){:target="_blank"}  from **@Dr15Jones**: Remove use of non-const static in pat::UserData<> `analysis`  created: 2015-10-13 13:27:47 merged: 2015-10-15 12:48:59
 
-103. [11751](http://github.com/cms-sw/cmssw/pull/11751){:target="_blank"}  from **@dertexaner**: Adding HBHENegativeNoise bit to HcalRecHitFlagsToBeExcluded - 76X `reconstruction`  created: 2015-10-13 11:22:40 merged: 2015-10-23 09:30:13
+103. [11758](http://github.com/cms-sw/cmssw/pull/11758){:target="_blank"}  from **@Dr15Jones**: Made static const in LimiDetails `reconstruction`  created: 2015-10-13 12:53:05 merged: 2015-10-16 05:26:20
 
-104. [11749](http://github.com/cms-sw/cmssw/pull/11749){:target="_blank"}  from **@Dr15Jones**: Made static const in MuonSelectors `reconstruction`  created: 2015-10-13 10:48:58 merged: 2015-10-15 05:17:23
+104. [11757](http://github.com/cms-sw/cmssw/pull/11757){:target="_blank"}  from **@Dr15Jones**: Changed static to const in ClusterFP420 `reconstruction`  created: 2015-10-13 12:24:07 merged: 2015-10-15 05:17:39
 
-105. [11748](http://github.com/cms-sw/cmssw/pull/11748){:target="_blank"}  from **@Dr15Jones**: Fix thread safety problem in ParametrizationHelper::fromString `analysis`  created: 2015-10-13 10:36:49 merged: 2015-10-15 05:17:07
+105. [11751](http://github.com/cms-sw/cmssw/pull/11751){:target="_blank"}  from **@dertexaner**: Adding HBHENegativeNoise bit to HcalRecHitFlagsToBeExcluded - 76X `reconstruction`  created: 2015-10-13 11:22:40 merged: 2015-10-23 09:30:13
 
-106. [11746](http://github.com/cms-sw/cmssw/pull/11746){:target="_blank"}  from **@Dr15Jones**: Removed unnecessary const_cast in DataFormats/L1GlobalTrigger `l1`  created: 2015-10-13 09:52:06 merged: 2015-10-15 05:16:51
+106. [11749](http://github.com/cms-sw/cmssw/pull/11749){:target="_blank"}  from **@Dr15Jones**: Made static const in MuonSelectors `reconstruction`  created: 2015-10-13 10:48:58 merged: 2015-10-15 05:17:23
 
-107. [11745](http://github.com/cms-sw/cmssw/pull/11745){:target="_blank"}  from **@Dr15Jones**: Remove unnecessary const cast away in LTCDigi `l1`  created: 2015-10-13 09:21:53 merged: 2015-10-15 05:16:36
+107. [11748](http://github.com/cms-sw/cmssw/pull/11748){:target="_blank"}  from **@Dr15Jones**: Fix thread safety problem in ParametrizationHelper::fromString `analysis`  created: 2015-10-13 10:36:49 merged: 2015-10-15 05:17:07
 
-108. [11744](http://github.com/cms-sw/cmssw/pull/11744){:target="_blank"}  from **@davidlt**: [UB] Initialize 'WasDecodingOk_' in 'EcalDCCHeaderRuntypeDecoder' `reconstruction`  created: 2015-10-13 09:13:40 merged: 2015-10-15 05:16:22
+108. [11746](http://github.com/cms-sw/cmssw/pull/11746){:target="_blank"}  from **@Dr15Jones**: Removed unnecessary const_cast in DataFormats/L1GlobalTrigger `l1`  created: 2015-10-13 09:52:06 merged: 2015-10-15 05:16:51
 
-109. [11743](http://github.com/cms-sw/cmssw/pull/11743){:target="_blank"}  from **@Dr15Jones**: Fix problems found by static analyzer in DataFormats/Scalers `daq`  `l1`  `reconstruction`  created: 2015-10-13 09:05:24 merged: 2015-10-20 11:52:01
+109. [11745](http://github.com/cms-sw/cmssw/pull/11745){:target="_blank"}  from **@Dr15Jones**: Remove unnecessary const cast away in LTCDigi `l1`  created: 2015-10-13 09:21:53 merged: 2015-10-15 05:16:36
 
-110. [11742](http://github.com/cms-sw/cmssw/pull/11742){:target="_blank"}  from **@slava77**: fix wrong auto-forward-port of RecoTLR of  #11741  `operations`  created: 2015-10-13 08:14:35 merged: 2015-10-15 05:16:03
-- :arrow_right: #11741 from **@slava77**: heavyIonsRun2 scenario for data processing `dqm`  `operations` 
+110. [11744](http://github.com/cms-sw/cmssw/pull/11744){:target="_blank"}  from **@davidlt**: [UB] Initialize 'WasDecodingOk_' in 'EcalDCCHeaderRuntypeDecoder' `reconstruction`  created: 2015-10-13 09:13:40 merged: 2015-10-15 05:16:22
 
-111. [11738](http://github.com/cms-sw/cmssw/pull/11738){:target="_blank"}  from **@lgray**: EGM ID Updates from recipes (76X) `analysis`  `reconstruction`  created: 2015-10-12 22:01:02 merged: 2015-10-20 17:17:38
+111. [11743](http://github.com/cms-sw/cmssw/pull/11743){:target="_blank"}  from **@Dr15Jones**: Fix problems found by static analyzer in DataFormats/Scalers `daq`  `l1`  `reconstruction`  created: 2015-10-13 09:05:24 merged: 2015-10-20 11:52:01
 
-112. [11737](http://github.com/cms-sw/cmssw/pull/11737){:target="_blank"}  from **@lathomas**: Tuning the CSC Halo filter parameters `reconstruction`  created: 2015-10-12 21:22:52 merged: 2015-10-15 12:42:19
+112. [11742](http://github.com/cms-sw/cmssw/pull/11742){:target="_blank"}  from **@slava77**: fix wrong auto-forward-port of RecoTLR of  #11741  `operations`  created: 2015-10-13 08:14:35 merged: 2015-10-15 05:16:03
 
-113. [11734](http://github.com/cms-sw/cmssw/pull/11734){:target="_blank"}  from **@davidlt**: Fix UB by settting firstStep in AnnealingGhostTrackFitter `reconstruction`  created: 2015-10-12 15:20:03 merged: 2015-10-15 05:22:56
+113. <span class="glyphicon glyphicon-arrow-right"></span>[11741](http://github.com/cms-sw/cmssw/pull/11741){:target="_blank"}  from **@slava77**: heavyIonsRun2 scenario for data processing `dqm`  `operations`  created: 2015-10-12 23:38:58 merged: 2015-10-13 07:29:23
 
-114. [11728](http://github.com/cms-sw/cmssw/pull/11728){:target="_blank"}  from **@davidlt**: Add _UBSAN_ to CMSSW `comparison`  `core`  created: 2015-10-12 07:58:21 merged: 2015-10-19 15:33:31
+114. [11738](http://github.com/cms-sw/cmssw/pull/11738){:target="_blank"}  from **@lgray**: EGM ID Updates from recipes (76X) `analysis`  `reconstruction`  created: 2015-10-12 22:01:02 merged: 2015-10-20 17:17:38
 
-115. [11727](http://github.com/cms-sw/cmssw/pull/11727){:target="_blank"}  from **@serval2412**: cppcheck: Prefer prefix ++/-- operators for non-primitive types `alca`  created: 2015-10-11 21:12:41 merged: 2015-10-15 12:46:26
+115. [11737](http://github.com/cms-sw/cmssw/pull/11737){:target="_blank"}  from **@lathomas**: Tuning the CSC Halo filter parameters `reconstruction`  created: 2015-10-12 21:22:52 merged: 2015-10-15 12:42:19
 
-116. [11726](http://github.com/cms-sw/cmssw/pull/11726){:target="_blank"}  from **@dertexaner**: HBHE isolated noise reflagger retuning for Run2 `reconstruction`  created: 2015-10-11 20:52:08 merged: 2015-10-23 08:27:10
-- :arrow_right: #11724 from **@Dr15Jones**: Fix python2.6 SyntaxError. `comparison`  `core` 
+116. [11734](http://github.com/cms-sw/cmssw/pull/11734){:target="_blank"}  from **@davidlt**: Fix UB by settting firstStep in AnnealingGhostTrackFitter `reconstruction`  created: 2015-10-12 15:20:03 merged: 2015-10-15 05:22:56
 
-117. [11721](http://github.com/cms-sw/cmssw/pull/11721){:target="_blank"}  from **@davidlt**: DQM/PixelLumi: definite static const int members `dqm`  created: 2015-10-10 13:09:05 merged: 2015-10-15 05:21:02
+117. [11728](http://github.com/cms-sw/cmssw/pull/11728){:target="_blank"}  from **@davidlt**: Add _UBSAN_ to CMSSW `comparison`  `core`  created: 2015-10-12 07:58:21 merged: 2015-10-19 15:33:31
 
-118. [11720](http://github.com/cms-sw/cmssw/pull/11720){:target="_blank"}  from **@fwyzard**: cmsCheckMultithreading replaced by edmCheckmultithreading `hlt`  created: 2015-10-10 11:37:22 merged: 2015-10-11 14:31:10
-- :arrow_right: #11719 from **@fwyzard**: cmsCheckMultithreading replaced by edmCheckmultithreading `hlt` 
+118. [11727](http://github.com/cms-sw/cmssw/pull/11727){:target="_blank"}  from **@serval2412**: cppcheck: Prefer prefix ++/-- operators for non-primitive types `alca`  created: 2015-10-11 21:12:41 merged: 2015-10-15 12:46:26
 
-119. [11716](http://github.com/cms-sw/cmssw/pull/11716){:target="_blank"}  from **@vandreev11**: Hgcal v7geometry xml files `geometry`  created: 2015-10-09 18:01:39 merged: 2015-10-12 20:26:12
+119. [11726](http://github.com/cms-sw/cmssw/pull/11726){:target="_blank"}  from **@dertexaner**: HBHE isolated noise reflagger retuning for Run2 `reconstruction`  created: 2015-10-11 20:52:08 merged: 2015-10-23 08:27:10
 
-120. [11715](http://github.com/cms-sw/cmssw/pull/11715){:target="_blank"}  from **@silviodonato**: HLT BTV DQM offline - safe for missing collections `dqm`  created: 2015-10-09 15:37:52 merged: 2015-10-15 05:20:45
+120. <span class="glyphicon glyphicon-arrow-right"></span>[11724](http://github.com/cms-sw/cmssw/pull/11724){:target="_blank"}  from **@Dr15Jones**: Fix python2.6 SyntaxError. `comparison`  `core`  created: 2015-10-11 13:10:14 merged: 2015-10-11 14:27:48
 
-121. [11714](http://github.com/cms-sw/cmssw/pull/11714){:target="_blank"}  from **@Dr15Jones**: Removed unused typedef from HLTTrackHaloFilter `hlt`  created: 2015-10-09 15:20:11 merged: 2015-10-11 14:36:24
+121. [11721](http://github.com/cms-sw/cmssw/pull/11721){:target="_blank"}  from **@davidlt**: DQM/PixelLumi: definite static const int members `dqm`  created: 2015-10-10 13:09:05 merged: 2015-10-15 05:21:02
 
-122. [11713](http://github.com/cms-sw/cmssw/pull/11713){:target="_blank"}  from **@Dr15Jones**: Removed unused DetSetLazyVector class `core`  created: 2015-10-09 14:50:02 merged: 2015-10-11 14:36:29
+122. [11720](http://github.com/cms-sw/cmssw/pull/11720){:target="_blank"}  from **@fwyzard**: cmsCheckMultithreading replaced by edmCheckmultithreading `hlt`  created: 2015-10-10 11:37:22 merged: 2015-10-11 14:31:10
 
-123. [11711](http://github.com/cms-sw/cmssw/pull/11711){:target="_blank"}  from **@bsunanda**: bsunanda: Run2-hcx40 Update the hit validation package to match Phase2 simulation  `dqm`  created: 2015-10-09 07:10:34 merged: 2015-10-16 13:12:09
+123. <span class="glyphicon glyphicon-arrow-right"></span>[11719](http://github.com/cms-sw/cmssw/pull/11719){:target="_blank"}  from **@fwyzard**: cmsCheckMultithreading replaced by edmCheckmultithreading `hlt`  created: 2015-10-10 11:37:16 merged: 2015-10-12 12:36:19
 
-124. [11710](http://github.com/cms-sw/cmssw/pull/11710){:target="_blank"}  from **@slehti**: HLTTauDQM: Bugfix `dqm`  created: 2015-10-09 06:13:08 merged: 2015-10-15 05:19:52
+124. [11716](http://github.com/cms-sw/cmssw/pull/11716){:target="_blank"}  from **@vandreev11**: Hgcal v7geometry xml files `geometry`  created: 2015-10-09 18:01:39 merged: 2015-10-12 20:26:12
 
-125. [11708](http://github.com/cms-sw/cmssw/pull/11708){:target="_blank"}  from **@hengne**: Relval update after 7_6_0_pre6 `generators`  `pdmv`  created: 2015-10-09 06:07:35 merged: 2015-10-13 07:26:44
+125. [11715](http://github.com/cms-sw/cmssw/pull/11715){:target="_blank"}  from **@silviodonato**: HLT BTV DQM offline - safe for missing collections `dqm`  created: 2015-10-09 15:37:52 merged: 2015-10-15 05:20:45
 
-126. [11706](http://github.com/cms-sw/cmssw/pull/11706){:target="_blank"}  from **@Dr15Jones**: const thread-safe packed classes `analysis`  created: 2015-10-09 03:49:01 merged: 2015-10-15 05:19:19
-- :arrow_right: #11705 from **@lihux25**: Fix the duplicated HF channels `reconstruction` 
+126. [11714](http://github.com/cms-sw/cmssw/pull/11714){:target="_blank"}  from **@Dr15Jones**: Removed unused typedef from HLTTrackHaloFilter `hlt`  created: 2015-10-09 15:20:11 merged: 2015-10-11 14:36:24
 
-127. [11704](http://github.com/cms-sw/cmssw/pull/11704){:target="_blank"}  from **@lihux25**: Fix the duplicated HF channels `reconstruction`  created: 2015-10-08 22:17:40 merged: 2015-10-11 14:31:26
+127. [11713](http://github.com/cms-sw/cmssw/pull/11713){:target="_blank"}  from **@Dr15Jones**: Removed unused DetSetLazyVector class `core`  created: 2015-10-09 14:50:02 merged: 2015-10-11 14:36:29
 
-128. [11694](http://github.com/cms-sw/cmssw/pull/11694){:target="_blank"}  from **@ndaci**: Added new categories (DSTJets,DSTMuons) for scouting triggers. `dqm`  created: 2015-10-08 15:39:04 merged: 2015-10-15 12:51:25
+128. [11711](http://github.com/cms-sw/cmssw/pull/11711){:target="_blank"}  from **@bsunanda**: bsunanda: Run2-hcx40 Update the hit validation package to match Phase2 simulation  `dqm`  created: 2015-10-09 07:10:34 merged: 2015-10-16 13:12:09
 
-129. [11690](http://github.com/cms-sw/cmssw/pull/11690){:target="_blank"}  from **@mark-grimes**: Switch AddOn tests to use Run 2 eras `comparison`  `core`  created: 2015-10-08 13:30:33 merged: 2015-10-26 13:36:54
-- :arrow_right: #11688 from **@cms-btv-pog**: Switch on hadronFlavourHasPriority for b-tag Validation module. `dqm` 
+129. [11710](http://github.com/cms-sw/cmssw/pull/11710){:target="_blank"}  from **@slehti**: HLTTauDQM: Bugfix `dqm`  created: 2015-10-09 06:13:08 merged: 2015-10-15 05:19:52
 
-130. [11685](http://github.com/cms-sw/cmssw/pull/11685){:target="_blank"}  from **@cms-btv-pog**: b-tag GBRForest payloads from GT `analysis`  `reconstruction`  created: 2015-10-08 05:53:08 merged: 2015-10-16 06:03:04
+130. [11708](http://github.com/cms-sw/cmssw/pull/11708){:target="_blank"}  from **@hengne**: Relval update after 7_6_0_pre6 `generators`  `pdmv`  created: 2015-10-09 06:07:35 merged: 2015-10-13 07:26:44
 
-131. [11683](http://github.com/cms-sw/cmssw/pull/11683){:target="_blank"}  from **@mrcarver**: Removed JetIdCleaning from SUSY path names (CMSHLT-601 for 76X) `dqm`  created: 2015-10-07 20:33:24 merged: 2015-10-15 12:51:31
+131. [11706](http://github.com/cms-sw/cmssw/pull/11706){:target="_blank"}  from **@Dr15Jones**: const thread-safe packed classes `analysis`  created: 2015-10-09 03:49:01 merged: 2015-10-15 05:19:19
 
-132. [11680](http://github.com/cms-sw/cmssw/pull/11680){:target="_blank"}  from **@wmtan**: Replace LinkDef file witl XML selection file in PhysicsTools/TagAndProbe `analysis`  created: 2015-10-07 20:15:05 merged: 2015-10-26 14:56:30
+132. <span class="glyphicon glyphicon-arrow-right"></span>[11705](http://github.com/cms-sw/cmssw/pull/11705){:target="_blank"}  from **@lihux25**: Fix the duplicated HF channels `reconstruction`  created: 2015-10-08 22:30:07 merged: 2015-10-12 12:41:23
 
-133. [11676](http://github.com/cms-sw/cmssw/pull/11676){:target="_blank"}  from **@richard-cms**: L1 MHT and forward Jet fixes `l1`  created: 2015-10-07 18:57:24 merged: 2015-10-11 14:31:31
+133. [11704](http://github.com/cms-sw/cmssw/pull/11704){:target="_blank"}  from **@lihux25**: Fix the duplicated HF channels `reconstruction`  created: 2015-10-08 22:17:40 merged: 2015-10-11 14:31:26
 
-134. [11673](http://github.com/cms-sw/cmssw/pull/11673){:target="_blank"}  from **@wmtan**: Replace LinkDef files with XML selextion files.in CalibCalorimetry/EcalLaserAnalyzer `alca`  created: 2015-10-07 18:40:06 merged: 2015-10-12 12:31:15
+134. [11694](http://github.com/cms-sw/cmssw/pull/11694){:target="_blank"}  from **@ndaci**: Added new categories (DSTJets,DSTMuons) for scouting triggers. `dqm`  created: 2015-10-08 15:39:04 merged: 2015-10-15 12:51:25
 
-135. [11671](http://github.com/cms-sw/cmssw/pull/11671){:target="_blank"}  from **@nhanvtran**: update to PUPPI;speedup, low PU corr `analysis`  `reconstruction`  created: 2015-10-07 16:12:03 merged: 2015-10-23 08:23:21
+135. [11690](http://github.com/cms-sw/cmssw/pull/11690){:target="_blank"}  from **@mark-grimes**: Switch AddOn tests to use Run 2 eras `comparison`  `core`  created: 2015-10-08 13:30:33 merged: 2015-10-26 13:36:54
 
-136. [11670](http://github.com/cms-sw/cmssw/pull/11670){:target="_blank"}  from **@ianna**: Thread-safe DB Geometry Builders `db`  created: 2015-10-07 15:54:12 merged: 2015-10-27 06:56:32
+136. <span class="glyphicon glyphicon-arrow-right"></span>[11688](http://github.com/cms-sw/cmssw/pull/11688){:target="_blank"}  from **@cms-btv-pog**: Switch on hadronFlavourHasPriority for b-tag Validation module. `dqm`  created: 2015-10-08 09:53:10 merged: 2015-10-15 07:36:50
 
-137. [11666](http://github.com/cms-sw/cmssw/pull/11666){:target="_blank"}  from **@makortel**: Fix the definition of pileup tracks in MultiTrackValidator `dqm`  created: 2015-10-07 09:38:31 merged: 2015-10-15 06:01:15
+137. [11685](http://github.com/cms-sw/cmssw/pull/11685){:target="_blank"}  from **@cms-btv-pog**: b-tag GBRForest payloads from GT `analysis`  `reconstruction`  created: 2015-10-08 05:53:08 merged: 2015-10-16 06:03:04
 
-138. [11661](http://github.com/cms-sw/cmssw/pull/11661){:target="_blank"}  from **@wmtan**: replace most LinkDef.h files with XML selection files `alca`  `analysis`  `db`  `dqm`  `reconstruction`  `simulation`  created: 2015-10-06 20:12:39 merged: 2015-10-17 09:10:13
-- :arrow_right: #11657 from **@gsafronov**: 75X: fix pT selection in HLTrigger/special/src/HLTPixlMBFilt.cc `comparison`  `hlt` 
+138. [11683](http://github.com/cms-sw/cmssw/pull/11683){:target="_blank"}  from **@mrcarver**: Removed JetIdCleaning from SUSY path names (CMSHLT-601 for 76X) `dqm`  created: 2015-10-07 20:33:24 merged: 2015-10-15 12:51:31
 
-139. [11653](http://github.com/cms-sw/cmssw/pull/11653){:target="_blank"}  from **@rovere**: Restore v0 validation   `dqm`  `reconstruction`  `simulation`  created: 2015-10-06 14:38:42 merged: 2015-10-15 05:22:06
+139. [11680](http://github.com/cms-sw/cmssw/pull/11680){:target="_blank"}  from **@wmtan**: Replace LinkDef file witl XML selection file in PhysicsTools/TagAndProbe `analysis`  created: 2015-10-07 20:15:05 merged: 2015-10-26 14:56:30
 
-140. [11652](http://github.com/cms-sw/cmssw/pull/11652){:target="_blank"}  from **@ianna**: Extended 2019 Scenario Scripts `db`  created: 2015-10-06 13:12:00 merged: 2015-10-12 12:31:46
+140. [11676](http://github.com/cms-sw/cmssw/pull/11676){:target="_blank"}  from **@richard-cms**: L1 MHT and forward Jet fixes `l1`  created: 2015-10-07 18:57:24 merged: 2015-10-11 14:31:31
 
-141. [11651](http://github.com/cms-sw/cmssw/pull/11651){:target="_blank"}  from **@lgray**: Forward port HGCalRecAlgos/Producers from CMSSW_6_2_0_SLHC26_patch3 (76X) `reconstruction`  created: 2015-10-06 13:04:14 merged: 2015-10-11 14:36:37
+141. [11673](http://github.com/cms-sw/cmssw/pull/11673){:target="_blank"}  from **@wmtan**: Replace LinkDef files with XML selextion files.in CalibCalorimetry/EcalLaserAnalyzer `alca`  created: 2015-10-07 18:40:06 merged: 2015-10-12 12:31:15
 
-142. [11644](http://github.com/cms-sw/cmssw/pull/11644){:target="_blank"}  from **@jmduarte**: RazorHbb HLT DQM for 76X `dqm`  created: 2015-10-06 05:48:59 merged: 2015-10-15 06:06:19
-- :arrow_right: #11638 from **@alja**: 75x Fireworks: fix problem with muon global track propagation `comparison`  `visualization` 
+142. [11671](http://github.com/cms-sw/cmssw/pull/11671){:target="_blank"}  from **@nhanvtran**: update to PUPPI;speedup, low PU corr `analysis`  `reconstruction`  created: 2015-10-07 16:12:03 merged: 2015-10-23 08:23:21
 
-143. [11636](http://github.com/cms-sw/cmssw/pull/11636){:target="_blank"}  from **@jasperlauwers**: Adding VBF H to Invisible paths + associated code fix `dqm`  created: 2015-10-05 14:09:05 merged: 2015-10-15 06:01:26
+143. [11670](http://github.com/cms-sw/cmssw/pull/11670){:target="_blank"}  from **@ianna**: Thread-safe DB Geometry Builders `db`  created: 2015-10-07 15:54:12 merged: 2015-10-27 06:56:32
 
-144. [11624](http://github.com/cms-sw/cmssw/pull/11624){:target="_blank"}  from **@makortel**: Migrate away from explicit comparisons of GeomDetEnumerators::PixelBarrel/PixelEndcap `alca`  `fastsim`  `geometry`  `reconstruction`  created: 2015-10-02 15:02:58 merged: 2015-10-16 13:12:43
-- :arrow_right: #11615 from **@cmkuo**: fix ES unpacker when the 2nd OptoRX is diabled, but the 1t and 3rd Op `reconstruction` 
-- :arrow_right: #11604 from **@kkrajczar**: For HI HLT: migration of 5 HI tracking modules to stream modules (75X backport) `reconstruction` 
-- :arrow_right: #11594 from **@ggovi**: Back-port of several fixes and improvements for the conddb tools `db` 
-- :arrow_right: #11586 from **@Martin-Grunewald**: Addition of PFMET to Trigger Data Formats (75X) `hlt` 
-- :arrow_right: #11551 from **@dmitrijus**: A fix for the DQMStreamerReader (75x) `dqm` 
+144. [11666](http://github.com/cms-sw/cmssw/pull/11666){:target="_blank"}  from **@makortel**: Fix the definition of pileup tracks in MultiTrackValidator `dqm`  created: 2015-10-07 09:38:31 merged: 2015-10-15 06:01:15
 
-145. [11548](http://github.com/cms-sw/cmssw/pull/11548){:target="_blank"}  from **@cms-tsg-storm**: 76X hlt25ns round six `fastsim`  `hlt`  created: 2015-09-29 12:22:41 merged: 2015-10-16 13:12:51
-- :arrow_right: #11545 from **@sushilchauhan**: fix for LS range of fit if there are no event processed in a LS `dqm` 
-- :arrow_right: #11541 from **@hengne**: relval scripts update, 2015c data workflows, a couple of fixes. `alca`  `hlt`  `pdmv`  `simulation` 
-- :arrow_right: #11536 from **@smorovic**: Checksum parameter cfi export (75X) `daq`  `reconstruction` 
-- :arrow_right: #11531 from **@taroni**: fixing emulator fenix bug `l1` 
-- :arrow_right: #11523 from **@arcidiac**: Fix for the Streams' names to be monitored `dqm` 
-- :arrow_right: #11521 from **@slehti**: Bugfix in HLTTauDQMPath affecting L2 plots `dqm` 
-- :arrow_right: #11509 from **@fwyzard**: hltDiff: compare TriggerResults event by event (75x) `comparison`  `hlt` 
+145. [11661](http://github.com/cms-sw/cmssw/pull/11661){:target="_blank"}  from **@wmtan**: replace most LinkDef.h files with XML selection files `alca`  `analysis`  `db`  `dqm`  `reconstruction`  `simulation`  created: 2015-10-06 20:12:39 merged: 2015-10-17 09:10:13
 
-146. [11497](http://github.com/cms-sw/cmssw/pull/11497){:target="_blank"}  from **@kpedro88**: merge SLHC updates for CaloTowers `alca`  `db`  `geometry`  `hlt`  `reconstruction`  `simulation`  created: 2015-09-25 18:33:14 merged: 2015-10-20 11:52:31
-- :arrow_right: #11484 from **@cms-tsg-storm**: 75X hlt25ns round5 plus updated frozenv4 `hlt` 
-- :arrow_right: #11474 from **@davidlange6**: Fix mistakes in hcal customise function
-- :arrow_right: #11464 from **@threus**: updated x-axes for several SiStripDQM MEs (75x) `dqm` 
-- :arrow_right: #11457 from **@smorovic**: Freeing INI file buffer after writing the file is finished (75X) `core` 
-- :arrow_right: #11444 from **@dinardo**: Now the code is able to handle non consecutive LS `dqm` 
-- :arrow_right: #11417 from **@argiro**: PositionCalc Fix `reconstruction` 
-- :arrow_right: #11406 from **@lgray**: Fix sigmaIetaIphi for photon regression (75X) `reconstruction` 
-- :arrow_right: #11400 from **@Dr15Jones**: Change mayConsume to conditional consumes in PATJetProducer `analysis` 
-- :arrow_right: #11391 from **@Martin-Grunewald**: 75X: New GT with L1T v5 and thus new HLT selection `alca`  `hlt` 
-- :arrow_right: #11362 from **@cms-met**: Change the type1 jet pt threshold from 10 to 15 GeV `analysis` 
+146. <span class="glyphicon glyphicon-arrow-right"></span>[11657](http://github.com/cms-sw/cmssw/pull/11657){:target="_blank"}  from **@gsafronov**: 75X: fix pT selection in HLTrigger/special/src/HLTPixlMBFilt.cc `comparison`  `hlt`  created: 2015-10-06 16:07:37 merged: 2015-10-15 07:35:18
 
-147. [11251](http://github.com/cms-sw/cmssw/pull/11251){:target="_blank"}  from **@dmitrijus**:   Replace mark-and-delete at next merge algorithm in DQMStore (76x) `dqm`  created: 2015-09-15 11:07:21 merged: 2015-10-27 17:39:14
+147. [11653](http://github.com/cms-sw/cmssw/pull/11653){:target="_blank"}  from **@rovere**: Restore v0 validation   `dqm`  `reconstruction`  `simulation`  created: 2015-10-06 14:38:42 merged: 2015-10-15 05:22:06
 
-148. [11131](http://github.com/cms-sw/cmssw/pull/11131){:target="_blank"}  from **@wouf**: Update Hydjet2 and Hydjet1 `generators`  created: 2015-09-04 14:37:46 merged: 2015-10-29 16:32:10
-- :arrow_right: #11096 from **@VinInn**: fix inner outer for OutIn in 75X `reconstruction` 
+148. [11652](http://github.com/cms-sw/cmssw/pull/11652){:target="_blank"}  from **@ianna**: Extended 2019 Scenario Scripts `db`  created: 2015-10-06 13:12:00 merged: 2015-10-12 12:31:46
 
-149. [11060](http://github.com/cms-sw/cmssw/pull/11060){:target="_blank"}  from **@duanders**: Use new primary vertex filter in hotline and high MET skim `alca`  `pdmv`  created: 2015-09-01 09:48:37 merged: 2015-10-29 12:26:43
-- :arrow_right: #10839 from **@yetkinyilmaz**: Option for DAS query in ConfigBuilder 75X `comparison`  `operations` 
+149. [11651](http://github.com/cms-sw/cmssw/pull/11651){:target="_blank"}  from **@lgray**: Forward port HGCalRecAlgos/Producers from CMSSW_6_2_0_SLHC26_patch3 (76X) `reconstruction`  created: 2015-10-06 13:04:14 merged: 2015-10-11 14:36:37
 
-150. [10517](http://github.com/cms-sw/cmssw/pull/10517){:target="_blank"}  from **@alberto-sanchez**: Adding Onia states to pruned gen particles `analysis`  created: 2015-08-02 14:00:18 merged: 2015-10-16 06:01:52
+150. [11644](http://github.com/cms-sw/cmssw/pull/11644){:target="_blank"}  from **@jmduarte**: RazorHbb HLT DQM for 76X `dqm`  created: 2015-10-06 05:48:59 merged: 2015-10-15 06:06:19
 
-151. [10494](http://github.com/cms-sw/cmssw/pull/10494){:target="_blank"}  from **@ianna**: Use Hcal Trigger Tower Geometry from Event Setup `alca`  `db`  `l1`  created: 2015-07-31 08:54:51 merged: 2015-10-27 06:56:39
+151. <span class="glyphicon glyphicon-arrow-right"></span>[11638](http://github.com/cms-sw/cmssw/pull/11638){:target="_blank"}  from **@alja**: 75x Fireworks: fix problem with muon global track propagation `comparison`  `visualization`  created: 2015-10-05 16:30:42 merged: 2015-10-12 12:36:37
 
-152. [10320](http://github.com/cms-sw/cmssw/pull/10320){:target="_blank"}  from **@jhgoh**: RivetAnalyzer consumes migration 76X `generators`  created: 2015-07-23 13:38:38 merged: 2015-10-19 11:28:28
+152. [11636](http://github.com/cms-sw/cmssw/pull/11636){:target="_blank"}  from **@jasperlauwers**: Adding VBF H to Invisible paths + associated code fix `dqm`  created: 2015-10-05 14:09:05 merged: 2015-10-15 06:01:26
 
-153. [10176](http://github.com/cms-sw/cmssw/pull/10176){:target="_blank"}  from **@bsunanda**: bsunanda:Run2-alca18 Restore Olgas code and modify the others to do both NZS and iterative analysis `alca`  created: 2015-07-13 17:57:58 merged: 2015-10-23 09:32:24
+153. [11624](http://github.com/cms-sw/cmssw/pull/11624){:target="_blank"}  from **@makortel**: Migrate away from explicit comparisons of GeomDetEnumerators::PixelBarrel/PixelEndcap `alca`  `fastsim`  `geometry`  `reconstruction`  created: 2015-10-02 15:02:58 merged: 2015-10-16 13:12:43
+
+154. <span class="glyphicon glyphicon-arrow-right"></span>[11615](http://github.com/cms-sw/cmssw/pull/11615){:target="_blank"}  from **@cmkuo**: fix ES unpacker when the 2nd OptoRX is diabled, but the 1t and 3rd Op `reconstruction`  created: 2015-10-02 03:33:05 merged: 2015-10-12 12:41:39
+
+155. <span class="glyphicon glyphicon-arrow-right"></span>[11604](http://github.com/cms-sw/cmssw/pull/11604){:target="_blank"}  from **@kkrajczar**: For HI HLT: migration of 5 HI tracking modules to stream modules (75X backport) `reconstruction`  created: 2015-10-01 16:06:26 merged: 2015-10-12 12:41:45
+
+156. <span class="glyphicon glyphicon-arrow-right"></span>[11594](http://github.com/cms-sw/cmssw/pull/11594){:target="_blank"}  from **@ggovi**: Back-port of several fixes and improvements for the conddb tools `db`  created: 2015-10-01 13:12:15 merged: 2015-10-12 12:36:43
+
+157. <span class="glyphicon glyphicon-arrow-right"></span>[11586](http://github.com/cms-sw/cmssw/pull/11586){:target="_blank"}  from **@Martin-Grunewald**: Addition of PFMET to Trigger Data Formats (75X) `hlt`  created: 2015-10-01 07:25:12 merged: 2015-10-13 07:31:56
+
+158. <span class="glyphicon glyphicon-arrow-right"></span>[11551](http://github.com/cms-sw/cmssw/pull/11551){:target="_blank"}  from **@dmitrijus**: A fix for the DQMStreamerReader (75x) `dqm`  created: 2015-09-29 14:27:12 merged: 2015-10-12 12:36:50
+
+159. [11548](http://github.com/cms-sw/cmssw/pull/11548){:target="_blank"}  from **@cms-tsg-storm**: 76X hlt25ns round six `fastsim`  `hlt`  created: 2015-09-29 12:22:41 merged: 2015-10-16 13:12:51
+
+160. <span class="glyphicon glyphicon-arrow-right"></span>[11545](http://github.com/cms-sw/cmssw/pull/11545){:target="_blank"}  from **@sushilchauhan**: fix for LS range of fit if there are no event processed in a LS `dqm`  created: 2015-09-29 12:11:46 merged: 2015-10-12 12:36:57
+
+161. <span class="glyphicon glyphicon-arrow-right"></span>[11541](http://github.com/cms-sw/cmssw/pull/11541){:target="_blank"}  from **@hengne**: relval scripts update, 2015c data workflows, a couple of fixes. `alca`  `hlt`  `pdmv`  `simulation`  created: 2015-09-29 10:27:35 merged: 2015-10-13 07:32:08
+
+162. <span class="glyphicon glyphicon-arrow-right"></span>[11536](http://github.com/cms-sw/cmssw/pull/11536){:target="_blank"}  from **@smorovic**: Checksum parameter cfi export (75X) `daq`  `reconstruction`  created: 2015-09-28 16:53:47 merged: 2015-10-12 12:37:03
+
+163. <span class="glyphicon glyphicon-arrow-right"></span>[11531](http://github.com/cms-sw/cmssw/pull/11531){:target="_blank"}  from **@taroni**: fixing emulator fenix bug `l1`  created: 2015-09-28 14:18:10 merged: 2015-10-12 12:51:19
+
+164. <span class="glyphicon glyphicon-arrow-right"></span>[11523](http://github.com/cms-sw/cmssw/pull/11523){:target="_blank"}  from **@arcidiac**: Fix for the Streams' names to be monitored `dqm`  created: 2015-09-28 11:04:20 merged: 2015-10-15 09:27:08
+
+165. <span class="glyphicon glyphicon-arrow-right"></span>[11521](http://github.com/cms-sw/cmssw/pull/11521){:target="_blank"}  from **@slehti**: Bugfix in HLTTauDQMPath affecting L2 plots `dqm`  created: 2015-09-28 10:18:05 merged: 2015-10-12 12:41:51
+
+166. <span class="glyphicon glyphicon-arrow-right"></span>[11509](http://github.com/cms-sw/cmssw/pull/11509){:target="_blank"}  from **@fwyzard**: hltDiff: compare TriggerResults event by event (75x) `comparison`  `hlt`  created: 2015-09-26 10:38:39 merged: 2015-10-12 15:16:43
+
+167. [11497](http://github.com/cms-sw/cmssw/pull/11497){:target="_blank"}  from **@kpedro88**: merge SLHC updates for CaloTowers `alca`  `db`  `geometry`  `hlt`  `reconstruction`  `simulation`  created: 2015-09-25 18:33:14 merged: 2015-10-20 11:52:31
+
+168. <span class="glyphicon glyphicon-arrow-right"></span>[11484](http://github.com/cms-sw/cmssw/pull/11484){:target="_blank"}  from **@cms-tsg-storm**: 75X hlt25ns round5 plus updated frozenv4 `hlt`  created: 2015-09-25 08:15:21 merged: 2015-10-15 07:51:39
+
+169. <span class="glyphicon glyphicon-arrow-right"></span>[11474](http://github.com/cms-sw/cmssw/pull/11474){:target="_blank"}  from **@davidlange6**: Fix mistakes in hcal customise function created: 2015-09-24 20:02:55 merged: 2015-09-24 20:03:31
+
+170. <span class="glyphicon glyphicon-arrow-right"></span>[11464](http://github.com/cms-sw/cmssw/pull/11464){:target="_blank"}  from **@threus**: updated x-axes for several SiStripDQM MEs (75x) `dqm`  created: 2015-09-24 16:04:58 merged: 2015-10-12 12:37:22
+
+171. <span class="glyphicon glyphicon-arrow-right"></span>[11457](http://github.com/cms-sw/cmssw/pull/11457){:target="_blank"}  from **@smorovic**: Freeing INI file buffer after writing the file is finished (75X) `core`  created: 2015-09-24 13:45:05 merged: 2015-10-12 12:42:14
+
+172. <span class="glyphicon glyphicon-arrow-right"></span>[11444](http://github.com/cms-sw/cmssw/pull/11444){:target="_blank"}  from **@dinardo**: Now the code is able to handle non consecutive LS `dqm`  created: 2015-09-23 22:43:36 merged: 2015-10-15 07:56:40
+
+173. <span class="glyphicon glyphicon-arrow-right"></span>[11417](http://github.com/cms-sw/cmssw/pull/11417){:target="_blank"}  from **@argiro**: PositionCalc Fix `reconstruction`  created: 2015-09-22 09:55:43 merged: 2015-10-12 12:46:26
+
+174. <span class="glyphicon glyphicon-arrow-right"></span>[11406](http://github.com/cms-sw/cmssw/pull/11406){:target="_blank"}  from **@lgray**: Fix sigmaIetaIphi for photon regression (75X) `reconstruction`  created: 2015-09-21 22:21:53 merged: 2015-10-12 12:51:31
+
+175. <span class="glyphicon glyphicon-arrow-right"></span>[11400](http://github.com/cms-sw/cmssw/pull/11400){:target="_blank"}  from **@Dr15Jones**: Change mayConsume to conditional consumes in PATJetProducer `analysis`  created: 2015-09-21 15:57:24 merged: 2015-09-28 13:32:30
+
+176. <span class="glyphicon glyphicon-arrow-right"></span>[11391](http://github.com/cms-sw/cmssw/pull/11391){:target="_blank"}  from **@Martin-Grunewald**: 75X: New GT with L1T v5 and thus new HLT selection `alca`  `hlt`  created: 2015-09-21 10:44:06 merged: 2015-10-15 09:27:14
+
+177. <span class="glyphicon glyphicon-arrow-right"></span>[11362](http://github.com/cms-sw/cmssw/pull/11362){:target="_blank"}  from **@cms-met**: Change the type1 jet pt threshold from 10 to 15 GeV `analysis`  created: 2015-09-18 15:59:36 merged: 2015-10-12 12:51:36
+
+178. [11251](http://github.com/cms-sw/cmssw/pull/11251){:target="_blank"}  from **@dmitrijus**:   Replace mark-and-delete at next merge algorithm in DQMStore (76x) `dqm`  created: 2015-09-15 11:07:21 merged: 2015-10-27 17:39:14
+
+179. [11131](http://github.com/cms-sw/cmssw/pull/11131){:target="_blank"}  from **@wouf**: Update Hydjet2 and Hydjet1 `generators`  created: 2015-09-04 14:37:46 merged: 2015-10-29 16:32:10
+
+180. <span class="glyphicon glyphicon-arrow-right"></span>[11096](http://github.com/cms-sw/cmssw/pull/11096){:target="_blank"}  from **@VinInn**: fix inner outer for OutIn in 75X `reconstruction`  created: 2015-09-03 08:49:50 merged: 2015-10-12 12:42:21
+
+181. [11060](http://github.com/cms-sw/cmssw/pull/11060){:target="_blank"}  from **@duanders**: Use new primary vertex filter in hotline and high MET skim `alca`  `pdmv`  created: 2015-09-01 09:48:37 merged: 2015-10-29 12:26:43
+
+182. <span class="glyphicon glyphicon-arrow-right"></span>[10839](http://github.com/cms-sw/cmssw/pull/10839){:target="_blank"}  from **@yetkinyilmaz**: Option for DAS query in ConfigBuilder 75X `comparison`  `operations`  created: 2015-08-18 11:57:25 merged: 2015-10-13 07:37:30
+
+183. [10517](http://github.com/cms-sw/cmssw/pull/10517){:target="_blank"}  from **@alberto-sanchez**: Adding Onia states to pruned gen particles `analysis`  created: 2015-08-02 14:00:18 merged: 2015-10-16 06:01:52
+
+184. [10494](http://github.com/cms-sw/cmssw/pull/10494){:target="_blank"}  from **@ianna**: Use Hcal Trigger Tower Geometry from Event Setup `alca`  `db`  `l1`  created: 2015-07-31 08:54:51 merged: 2015-10-27 06:56:39
+
+185. [10320](http://github.com/cms-sw/cmssw/pull/10320){:target="_blank"}  from **@jhgoh**: RivetAnalyzer consumes migration 76X `generators`  created: 2015-07-23 13:38:38 merged: 2015-10-19 11:28:28
+
+186. [10176](http://github.com/cms-sw/cmssw/pull/10176){:target="_blank"}  from **@bsunanda**: bsunanda:Run2-alca18 Restore Olgas code and modify the others to do both NZS and iterative analysis `alca`  created: 2015-07-13 17:57:58 merged: 2015-10-23 09:32:24
 
 #### CMSDIST Changes between Tags REL/CMSSW_7_6_0_pre7/slc6_amd64_gcc493 and REL/CMSSW_7_6_0/slc6_amd64_gcc493:
 
