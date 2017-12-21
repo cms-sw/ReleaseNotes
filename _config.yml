@@ -17,6 +17,7 @@ theme: minima
 collections:
   releases:
     output: true
+    permalink: /:path:output_ext
 plugins:
   - jekyll-feed
 

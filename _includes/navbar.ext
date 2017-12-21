@@ -19,7 +19,7 @@
               {% for group_subminor in group_subminors  %}
                 {% assign ordered_releases = group_subminor.items | sort: 'date' | reverse %}
                 {% for rel in ordered_releases %}
-                  <li><a href="{{ site.baseurl}}/{{ rel.url }}">{% if rel.rel_link %}{{ rel.rel_link | escape }}{% else %}{{ rel.title | escape }}{% endif %}</a></li>
+                  <li><a href="{{ site.baseurl}}{{ rel.url }}">{% if rel.rel_link %}{{ rel.rel_link | escape }}{% else %}{{ rel.title | escape }}{% endif %}</a></li>
                 {% endfor %}
               {% endfor %}
               {% if  group_minors.size > 1 %}</ul></li>{% endif %}
