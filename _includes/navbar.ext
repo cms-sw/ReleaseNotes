@@ -17,9 +17,12 @@
               {% assign minor = -1 %}{% for m in group_minor.items %}{% assign minor = m.relminor %}{% endfor %}
               <li class="dropdown-submenu"><a class="dropdown-toggle" data-toggle="dropdown" href="#">CMSSW {{ major }}_{{ minor }}</a>
                 <ul class="dropdown-menu">
-                {% assign ordered_releases = group_minor.items | sort: 'title' | reverse %}
-                {% for rel in ordered_releases %}
-                  <li><a href="{{ site.baseurl}}/{{ rel.url }}">{% if rel.rel_link %}{{ rel.rel_link | escape }}{% else %}{{ rel.title | escape }}{% endif %}</a></li>
+                {% assign group_subminors = group_minor.items | sort: 'relsubminor' | reverse | group_by: 'relsubminor' %}
+                {% for group_subminor in group_subminors  %}
+                  {% assign ordered_releases = group_subminor.items | sort: 'date' | reverse %}
+                  {% for rel in ordered_releases %}
+                    <li><a href="{{ site.baseurl}}/{{ rel.url }}">{% if rel.rel_link %}{{ rel.rel_link | escape }}{% else %}{{ rel.title | escape }}{% endif %}</a></li>
+                  {% endfor %}
                 {% endfor %}
                 </ul>
               </li>
