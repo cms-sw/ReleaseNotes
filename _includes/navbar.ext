@@ -10,11 +10,19 @@
         {% assign group_majors = site.releases | sort: 'relmajor' | group_by: 'relmajor' %}
         {% for group_major in group_majors %}
           {% assign major = -1 %}{% for m in group_major.items %}{% assign major = m.relmajor %}{% endfor %}
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="{{ site.baseurl }}/index.html" id="activities_menu">CMSSW {{ major }} <span class="caret"></span></a>
-            <ul class="dropdown-menu" aria-labelledby="activities_menu">
-            {% assign ordered_releases = group_major.items | sort: 'title' | reverse %}
-            {% for rel in ordered_releases %}
-              <li><a href="{{ site.baseurl}}/{{ rel.url }}">{% if rel.rel_link %}{{ rel.rel_link | escape }}{% else %}{{ rel.title | escape }}{% endif %}</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">CMSSW {{ major }} <span class="caret"></span></a>
+            <ul class="dropdown-menu multi-level">
+            {% assign group_minors = group_major.items | sort: 'relminor' | reverse | group_by: 'relminor' %}
+            {% for group_minor in group_minors %}
+              {% assign minor = -1 %}{% for m in group_minor.items %}{% assign minor = m.relminor %}{% endfor %}
+              <li class="dropdown-submenu"><a class="dropdown-toggle" data-toggle="dropdown" href="#">CMSSW {{ major }}_{{ minor }}</a>
+                <ul class="dropdown-menu">
+                {% assign ordered_releases = group_minor.items | sort: 'title' | reverse %}
+                {% for rel in ordered_releases %}
+                  <li><a href="{{ site.baseurl}}/{{ rel.url }}">{% if rel.rel_link %}{{ rel.rel_link | escape }}{% else %}{{ rel.title | escape }}{% endif %}</a></li>
+                {% endfor %}
+                </ul>
+              </li>
             {% endfor %}
             </ul>
           </li>
