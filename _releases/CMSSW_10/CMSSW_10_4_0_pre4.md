@@ -296,6 +296,10 @@ relpre: _pre4
 
 
 
+71. [25016](http://github.com/cms-sw/cmssw/pull/25016){:target="_blank"}  from **@cms-tau-pog**: DNN-based Tau-Id discrimians `reconstruction`  created: 2018-10-26 13:13:21 merged: 2018-12-06 10:08:12
+
+
+
 #### CMSDIST Changes between Tags REL/CMSSW_10_4_0_pre3/slc6_amd64_gcc700 and REL/CMSSW_10_4_0_pre4/slc6_amd64_gcc700:
 [compare to previous](https://github.com/cms-sw/cmsdist/compare/REL/CMSSW_10_4_0_pre3/slc6_amd64_gcc700...REL/CMSSW_10_4_0_pre4/slc6_amd64_gcc700)
 
