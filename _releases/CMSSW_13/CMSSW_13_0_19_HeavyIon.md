@@ -1,0 +1,31 @@
+---
+layout: post
+rel_link:  "13_0_19_HeavyIon"
+title:  "CMSSW_13_0_19_HeavyIon"
+date:   2024-06-11 04:28:21
+categories: cmssw
+relmajor: 13
+relminor: 0
+relsubminor: 19
+---
+
+# CMSSW_13_0_19_HeavyIon
+#### Changes since CMSSW_13_0_18_HeavyIon:
+[compare to previous](https://github.com/cms-sw/cmssw/compare/CMSSW_13_0_18_HeavyIon...CMSSW_13_0_19_HeavyIon)
+
+
+
+1. [44958](http://github.com/cms-sw/cmssw/pull/44958){:target="_blank"}  from **@cms-tsg-storm**: HLT menu development for `13_0_X` (14/N) `hlt` created: 2024-05-13 07:08:33 merged: 2024-05-14 15:16:20
+
+2. [44826](http://github.com/cms-sw/cmssw/pull/44826){:target="_blank"}  from **@ykumar05**: High pT Tracks Solved: Backporting to CMSSW_13_0_X `fastsim` created: 2024-04-24 06:40:52 merged: 2024-05-01 20:08:34
+
+3. [44649](http://github.com/cms-sw/cmssw/pull/44649){:target="_blank"}  from **@forthommel**: [13_0_X] CepGenInterface: Added missing include `generators` created: 2024-04-06 19:27:16 merged: 2024-04-22 17:58:56
+
+4. [44421](http://github.com/cms-sw/cmssw/pull/44421){:target="_blank"}  from **@lauridsj**: [Backport 13.0.X] Update Pythia Hook for BB4L `generators` created: 2024-03-15 13:17:30 merged: 2024-04-09 17:32:33
+
+#### CMSDIST Changes between Tags REL/CMSSW_13_0_18_HeavyIon/el8_amd64_gcc11 and REL/CMSSW_13_0_19_HeavyIon/el8_amd64_gcc11:
+[compare to previous](https://github.com/cms-sw/cmsdist/compare/REL/CMSSW_13_0_18_HeavyIon/el8_amd64_gcc11...REL/CMSSW_13_0_19_HeavyIon/el8_amd64_gcc11)
+
+
+
+1. [9124](http://github.com/cms-sw/cmsdist/pull/9124){:target="_blank"}  from **@forthommel**: [13_0_X] Bumped CepGen version to 1.2.3 created: 2024-04-06 10:33:20 merged: 2024-04-22 17:58:31
