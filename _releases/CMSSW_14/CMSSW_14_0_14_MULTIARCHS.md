@@ -1,0 +1,41 @@
+---
+layout: post
+rel_link:  "14_0_14_MULTIARCHS"
+title:  "CMSSW_14_0_14_MULTIARCHS"
+date:   2024-08-09 01:15:21
+categories: cmssw
+relmajor: 14
+relminor: 0
+relsubminor: 14
+---
+
+# CMSSW_14_0_14_MULTIARCHS
+#### Changes since CMSSW_14_0_13_patch2_MULTIARCHS:
+[compare to previous](https://github.com/cms-sw/cmssw/compare/CMSSW_14_0_13_patch2_MULTIARCHS...CMSSW_14_0_14_MULTIARCHS)
+
+
+
+1. [45663](http://github.com/cms-sw/cmssw/pull/45663){:target="_blank"}  from **@phnattla**: Demangled log printout of Pedereader [14.0.X] `alca` `trk` created: 2024-08-07 11:25:00 merged: 2024-08-08 13:53:33
+
+2. [45655](http://github.com/cms-sw/cmssw/pull/45655){:target="_blank"}  from **@fwyzard**: Fix a race condition in splitVertices [14.0.x] `reconstruction` `tracking` created: 2024-08-06 18:26:41 merged: 2024-08-08 13:52:13
+
+3. [45653](http://github.com/cms-sw/cmssw/pull/45653){:target="_blank"}  from **@kpedro88**: another apptainer workaround [14_0_X] `heterogeneous` created: 2024-08-06 16:38:29 merged: 2024-08-08 13:50:37
+
+4. [45647](http://github.com/cms-sw/cmssw/pull/45647){:target="_blank"}  from **@mmusich**: [14.0.X] `MultiTrajectoryStateAssembler`: protect `removeWrongPz` when average pZ sign is identically 0 `reconstruction` `tracking` created: 2024-08-06 10:19:11 merged: 2024-08-07 17:24:53
+
+5. [45637](http://github.com/cms-sw/cmssw/pull/45637){:target="_blank"}  from **@mmusich**: [14.0.X] Introduce `BeamSpotCompatibilityChecker` and corresponding tests `alca` `reconstruction` `tracking` created: 2024-08-05 11:36:10 merged: 2024-08-07 17:21:33
+
+6. [45633](http://github.com/cms-sw/cmssw/pull/45633){:target="_blank"}  from **@mmusich**: [14.0.X] `DisplacedJet_Monitor`: use  `hltIter2MergedForDisplaced` instead of  `hltIter2MergedForBTag` to (as per CMSHLT-3303) `dqm` created: 2024-08-05 07:50:46 merged: 2024-08-07 17:24:03
+
+7. [45601](http://github.com/cms-sw/cmssw/pull/45601){:target="_blank"}  from **@OzAmram**: Add new configuration options to CloseByParticleGun (backport) `generators` created: 2024-07-30 22:57:36 merged: 2024-08-08 13:57:21
+
+8. [45593](http://github.com/cms-sw/cmssw/pull/45593){:target="_blank"}  from **@missirol**: fix packing of muon-shower objects for L1-uGT FED [`14_0_X`] `l1` created: 2024-07-30 14:53:43 merged: 2024-08-07 17:22:18
+
+#### CMSDIST Changes between Tags REL/CMSSW_14_0_13_patch2_MULTIARCHS/el8_amd64_gcc12 and REL/CMSSW_14_0_14_MULTIARCHS/el8_amd64_gcc12:
+[compare to previous](https://github.com/cms-sw/cmsdist/compare/REL/CMSSW_14_0_13_patch2_MULTIARCHS/el8_amd64_gcc12...REL/CMSSW_14_0_14_MULTIARCHS/el8_amd64_gcc12)
+
+
+
+1. [9343](http://github.com/cms-sw/cmsdist/pull/9343){:target="_blank"}  from **@cms-sw**: 140X : Rollback build rules to enable-multi-tagerts change created: 2024-08-05 06:10:31 merged: 2024-08-05 06:10:37
+
+2. [9338](http://github.com/cms-sw/cmsdist/pull/9338){:target="_blank"}  from **@cms-sw**: [14.0.X] set scram target to auto when multi-target is enabled created: 2024-08-01 14:55:34 merged: 2024-08-04 19:22:06
